@@ -82,6 +82,7 @@ void ComputeBlockDCTDouble(double block[64]) {
 
 void ComputeBlockIDCTDouble(double block[64]) {
   TransformBlock(block, IDCT1d);
+  WOMBAT
 }
 
 }  // namespace guetzli
